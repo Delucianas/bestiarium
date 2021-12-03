@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.image_center {
+    text-align: center;
+  padding-top: 28px;
+
+}
+
+.tittle_center{
+  font-family: 'edoregular';
+  text-align: center;
+  font-size: 35px;
+}
+
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text_center {
+    text-align: center;
+    display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.text_content{
+  text-align: justify;
+  font-family: serif;
+  font-size: 18px;
+  padding-button:10%;
+
+}
+
+a {
+    color: white;
+}
+.boton{
+  width: 95%;
+  height: 220%;
+  font-weight: bolder;
+  border-style: solid;
+}
+.fuego{
+  text-align: left;
+  color: orange;
+  font-size: 35px;
+}
+
+.agua{
+  text-align: left;
+  color: aqua;
+  font-size: 35px;
+}
+
+.tierra{
+  text-align: left;
+  color: green;
+  font-size: 35px;
+}
+
+.aire{
+  text-align: left;
+  color: violet;
+  font-size: 35px;
+}
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('../fuentes1/edo-webfont.eot');
+    src: url('../fuentes1/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes1/edo-webfont.woff2') format('woff2'),
+         url('../fuentes1/edo-webfont.woff') format('woff'),
+         url('../fuentes1/edo-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

@@ -1,0 +1,67 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.image_center {
+    text-align: center;
+  padding-top: 28px;
+
+}
+
+.tittle_center{
+  font-family: 'edoregular';
+  text-align: center;
+  font-size: 35px;
+  color: aqua;
+}
+
+.sub_tittle{
+  font-family: serif;
+  text-decoration: overline;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+
+}
+
+.tittle_center2{
+  font-family: 'edoregular';
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+.container {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.text_content{
+  text-align: justify;
+  font-family: serif;
+  color: aqua;
+  font-size: 18px;
+  margin-left: 25%;
+  margin-right: 25%;
+
+}
+
+a {
+    color: black;
+}
+
+@font-face {
+    font-family: 'edoregular';
+    src: url('../fuentes1/edo-webfont.eot');
+    src: url('../fuentes1/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fuentes1/edo-webfont.woff2') format('woff2'),
+         url('../fuentes1/edo-webfont.woff') format('woff'),
+         url('../fuentes1/edo-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
